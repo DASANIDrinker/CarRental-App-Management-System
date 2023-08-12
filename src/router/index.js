@@ -14,6 +14,7 @@ import Admin from '../views/Admin'
 import NotFound from '../views/NotFound'
 import Logic from '../views/Logic'
 import Logout from '../views/Logout'
+import PaymentOrder from '../views/PaymentOrder'
 
 Vue.use(Router);
 
@@ -83,6 +84,11 @@ export default new Router({
                 path:'/logic',
                 name:'Logic',
                 component:Logic
+            },
+            {
+                path:'/paymentOrder',
+                name:'paymentOrder',
+                component:PaymentOrder
             }
         ]
     },

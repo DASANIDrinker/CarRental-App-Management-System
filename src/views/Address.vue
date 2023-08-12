@@ -70,9 +70,9 @@
                         </el-col>
                     </el-form-item>
                 </el-form>
-                <div class="create-drawer-footer">
-                    <el-button @click="cancelCreateForm" style="width: 150px">取 消</el-button>
-                    <el-button @click="confirmCreateForm" type="primary" style="width: 150px">确定</el-button>
+                <div>
+                    <el-button @click="cancelCreateForm" style="width: 130px">取 消</el-button>
+                    <el-button @click="confirmCreateForm" type="primary" style="width: 130px">确定</el-button>
                 </div>
             </div>
         </el-drawer>
@@ -164,9 +164,9 @@
                         </el-col>
                     </el-form-item>
                 </el-form>
-                <div class="create-drawer-footer">
-                    <el-button @click="cancelEditForm" style="width: 150px">取 消</el-button>
-                    <el-button @click="confirmEditForm" type="primary" style="width: 150px">确定</el-button>
+                <div>
+                    <el-button @click="cancelEditForm" style="width: 130px">取 消</el-button>
+                    <el-button @click="confirmEditForm" type="primary" style="width: 130px">确定</el-button>
                 </div>
             </div>
         </el-drawer>
@@ -218,7 +218,8 @@ export default {
     methods: {
         async getLocations() {
             try {
-                await this.axios.get('http://localhost:8081/location/getAll')
+                // await this.axios.get('http://localhost:8081/location/getAll')
+                await this.axios.get('/api/location/getAll')
                     .then(res => {
                         this.locations = res.data
                         console.log(this.locations)
@@ -278,7 +279,8 @@ export default {
 
         async confirmCreateForm() {
             this.createFormLoading = true
-            await this.axios.post('http://localhost:8081/location/insert',
+            // await this.axios.post('http://localhost:8081/location/insert',
+            await this.axios.post('/api/location/insert',
                 this.createForm).then(res => {
                     console.log(res)
                     this.createFormLoading = false
@@ -335,6 +337,7 @@ export default {
         },
 
         setInitialEditForm(e) {
+            console.log(e)
             this.showEditDrawer = true
             this.editForm.locationId = e.locationId,
                 this.editForm.locationBrief = e.locationBrief,
@@ -357,7 +360,8 @@ export default {
 
         async confirmEditForm() {
             this.editFormLoading = true
-            await this.axios.put('http://localhost:8081/location/update',
+            // await this.axios.put('http://localhost:8081/location/update',
+            await this.axios.put('/api/location/update',
                 this.editForm).then(res => {
                     console.log(res)
                     this.editFormLoading = false
@@ -430,7 +434,8 @@ export default {
                     if (action === 'confirm') {
                         instance.confirmButtonLoading = true
                         if (this.multipleSelection.length == 0) {
-                            this.axios.delete('http://localhost:8081/location/delete',
+                            // this.axios.delete('http://localhost:8081/location/delete',
+                            this.axios.delete('/api/location/delete',
                                 { data: locationId }).then(res => {
                                     console.log(res)
                                     if (res.data == "success") {
@@ -460,7 +465,8 @@ export default {
                                 ids.push(this.multipleSelection[i].locationId)
                             }
                             console.log(ids)
-                            this.axios.delete('http://localhost:8081/location/delete',
+                            // this.axios.delete('http://localhost:8081/location/delete',
+                            this.axios.delete('/api/location/delete',
                                 { data: ids }).then(res => {
                                     console.log(res)
                                     if (res.data == "success") {
