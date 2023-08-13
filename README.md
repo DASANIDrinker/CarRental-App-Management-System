@@ -24,15 +24,15 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Login Page
 <p align="left">
-  <img src="/images/Login.png" alt="Login Page" width="327" height="627">
+  <img src="/images/Login.png" alt="Login Page" width="703" height="376">
 </p>
 
 ## Vehicles Page
 <p align="left">
-  <img src="/images/Vehicles.png" alt="Vehicles Page" width="327" height="627">
+  <img src="/images/Vehicles.png" alt="Vehicles Page" width="703" height="376">
 </p>
 
 ## Drivers Page
 <p align="left">
-  <img src="/images/Drivers.png" alt="Drivers Page" width="327" height="627">
+  <img src="/images/Drivers.png" alt="Drivers Page" width="703" height="376">
 </p>
