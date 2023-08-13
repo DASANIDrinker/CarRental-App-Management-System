@@ -32,6 +32,26 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
   <img src="/images/Vehicles.png" alt="Vehicles Page" width="914" height="489">
 </p>
 
+### Vehicles Update
+<p align="left">
+  <img src="/images/Update Vehicle.png" alt="Vehicles Update" width="914" height="489">
+</p>
+
+### Vehicles Insert
+<p align="left">
+  <img src="/images/New Vehicle.png" alt="Vehicles Insert" width="914" height="489">
+</p>
+
+### Vehicles Delete
+<p align="left">
+  <img src="/images/Delete Vehicle.png" alt="Vehicles Delete" width="914" height="489">
+</p>
+
+### Vehicles Search
+<p align="left">
+  <img src="/images/Search Vehicle.png" alt="Vehicles Search" width="914" height="489">
+</p>
+
 ## Drivers Page
 <p align="left">
   <img src="/images/Drivers.png" alt="Drivers Page" width="914" height="489">
