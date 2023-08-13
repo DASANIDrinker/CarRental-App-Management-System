@@ -1,6 +1,7 @@
 # Management System
 
 > A Vue.js project<br>
+
 > A Management System written in javascript. It is designed to help the employee at the car rental company to update, check and delete orders and other informations
 
 ## Build Setup
