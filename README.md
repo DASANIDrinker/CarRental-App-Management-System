@@ -56,3 +56,40 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 <p align="left">
   <img src="/images/Drivers.png" alt="Drivers Page" width="914" height="489">
 </p>
+
+## Vehicle Types Page
+<p align="left">
+  <img src="/images/Vehicle Types.png" alt="Vehicle Types Page" width="914" height="489">
+</p>
+
+## Orders Page
+<p align="left">
+  <img src="/images/Orders.png" alt="Orders Page" width="914" height="489">
+</p>
+
+## Reservations Page
+<p align="left">
+  <img src="/images/Reservations.png" alt="Reservations Page" width="914" height="489">
+</p>
+
+## Orders Page
+<p align="left">
+  <img src="/images/Orders.png" alt="Orders Page" width="914" height="489">
+</p>
+
+## Users Page
+<p align="left">
+  <img src="/images/Users.png" alt="Users Page" width="914" height="489">
+</p>
+
+## Address Page
+<p align="left">
+  <img src="/images/Address.png" alt="Address Page" width="914" height="489">
+</p>
+
+## Payment Orders Page
+<p align="left">
+  <img src="/images/Payment Orders.png" alt="Payment Orders Page" width="914" height="489">
+</p>
+
+
