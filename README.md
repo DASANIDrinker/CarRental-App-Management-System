@@ -24,7 +24,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Login Page
 <p align="left">
-  <img src="/images/Login.png" alt="Login Page" width="703" height="376">
+  <img src="/images/Login.png" alt="Login Page" width="914" height="489">
 </p>
 
 ## Vehicles Page
