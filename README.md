@@ -2,8 +2,11 @@
 
 > A Vue.js project<br>
 > <br>
-> A Management System written in javascript. It is designed to help the employee at the car rental company to update, check and delete orders and other informations
-
+> A Management System written in javascript. It is designed to help the employee at the car rental company to update, check and delete orders and other informations <br>
+> <br>
+> All the pages shown below has a search bar at the top of the page. Next to the search bar is a green button for creating new object. The blue and red buttons represent edition and deletion of objects.<br>
+> <br>
+> Some of the objects can be sorted in terms of different attributes in either ascending and descending order.
 ## Build Setup
 
 ``` bash
