@@ -6,7 +6,13 @@
 > <br>
 > All the pages shown below has a search bar at the top of the page. Next to the search bar is a green button for creating new object. The blue and red buttons represent edition and deletion of objects.<br>
 > <br>
-> Some of the objects can be sorted in terms of different attributes in either ascending and descending order.
+> Some of the objects can be sorted in terms of different attributes in either ascending and descending order.<br>
+> <br>
+> Refer red comments on the images as explanations.<br>
+> <br>
+> Here is the link of the front end of this project: https://github.com/DASANIDrinker/CarRental-App-FrontEnd<br>
+> <br>
+> Here is the link of the back end of this project: https://github.com/DASANIDrinker/CarRental-App-BackEnd
 ## Build Setup
 
 ``` bash
